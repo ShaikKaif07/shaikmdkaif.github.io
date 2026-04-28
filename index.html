@@ -1,4 +1,84 @@
-<section id="contact" class="section dark">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S. Md. Kaif | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+  <h1 class="logo">Kaif</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="hero-content" data-aos="fade-up">
+    <h2>Hello, I'm <span>S. Md. Kaif</span></h2>
+    <p>Front-End Web Developer</p>
+    <button onclick="scrollToSection('projects')">View My Work</button>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section" data-aos="fade-right">
+  <h2>About Me</h2>
+  <p>
+    I am S. Md. Kaif, a passionate Front-End Developer skilled in HTML, CSS, and JavaScript.
+    I enjoy building responsive and user-friendly websites.
+  </p>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section dark" data-aos="zoom-in">
+  <h2>Skills</h2>
+  <div class="cards">
+
+    <div class="card" data-aos="flip-left">HTML</div>
+    <div class="card" data-aos="flip-left">CSS</div>
+    <div class="card" data-aos="flip-left">JavaScript</div>
+    <div class="card" data-aos="flip-left">Responsive Design</div>
+
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section" data-aos="fade-left">
+  <h2>Projects</h2>
+  <div class="cards">
+
+    <div class="card" data-aos="flip-left">
+      <h3>Logic Loom Website</h3>
+      <p>Front-end learning platform UI project.</p>
+
+      <a href="https://shaikkaif07.github.io/shaikmdkaif.github.io/" target="_blank" class="btn">
+        Live Demo
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section dark" data-aos="fade-up">
   <h2>Contact Me</h2>
 
   <p>
@@ -19,10 +99,23 @@
     <a href="https://www.linkedin.com/in/your-profile" target="_blank">
       <i class="fab fa-linkedin"></i> LinkedIn
     </a>
-
-    <a href="https://github.com/ShaikKaif07" target="_blank">
-      <i class="fab fa-github"></i> GitHub
-    </a>
   </div>
 
 </section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 S. Md. Kaif | Portfolio Website</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
